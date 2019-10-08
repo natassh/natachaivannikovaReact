@@ -29,16 +29,16 @@ const BoxList = () => {
         title="¿Qué hago?"
         children={
           <>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               Desde un diseño realizo toda la maquetación en{' '}
               <strong>HTML5</strong> siendo muy detallista y a un nivel
               semántico muy optimo para SEO.
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               Si el proyecto requiere desarrollo, lo realizo con{' '}
               <strong>WordPress</strong> creando un tema específico desde cero.
             </p>
-            <strong class="box-article__strong"></strong>
+            <strong className="box-article__strong"></strong>
           </>
         }
       />
@@ -47,12 +47,12 @@ const BoxList = () => {
         title="Trabajo con"
         children={
           <>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               {' '}
               HTML5 / CSS3 / WordPress / WooCommerce / PHP /Javascript / Pug /
               Sass / Flex-box / Grid / GIT / BEM / Atomic Design
             </p>
-            <strong class="box-article__strong">
+            <strong className="box-article__strong">
               Vivo aprendiendo día a día.
             </strong>
           </>
@@ -63,17 +63,17 @@ const BoxList = () => {
         title="¿Qué quiero?"
         children={
           <>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               Busco Agencias o Diseñadores para <strong>colaborar</strong> en el
               desarrollo de proyectos web.
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               Trabajar <strong>en remoto</strong> para una empresa.
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               Maqueto al pixel y desarrollo WordPress <strong>a medida</strong>.
             </p>
-            <strong class="box-article__strong"></strong>
+            <strong className="box-article__strong"></strong>
           </>
         }
       />
@@ -82,7 +82,7 @@ const BoxList = () => {
         title="Algunos trabajos con agencias"
         children={
           <>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               {' '}
               <a
                 href="https://www.solarpack.es/"
@@ -92,7 +92,7 @@ const BoxList = () => {
                 Solarpack
               </a>{' '}
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               {' '}
               <a
                 href="http://www.suminis.com/"
@@ -102,7 +102,7 @@ const BoxList = () => {
                 Suminis
               </a>{' '}
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               {' '}
               <a
                 href="https://fundacioneki.org/"
@@ -112,7 +112,7 @@ const BoxList = () => {
                 Fundación EKI
               </a>{' '}
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               {' '}
               <a
                 href="https://www.ininser.es/"
@@ -122,7 +122,7 @@ const BoxList = () => {
                 Ininser S.A
               </a>{' '}
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               {' '}
               <a
                 href="https://forest-trafic.com/"
@@ -132,7 +132,7 @@ const BoxList = () => {
                 Forest Trafic S.L
               </a>{' '}
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               {' '}
               <a
                 href="http://www.cafte.com/"
@@ -143,7 +143,7 @@ const BoxList = () => {
                 CAF Turnkey & Engineering
               </a>{' '}
             </p>
-            <strong class="box-article__strong"></strong>
+            <strong className="box-article__strong"></strong>
           </>
         }
       />
@@ -152,9 +152,12 @@ const BoxList = () => {
         title="¿Dónde encontrarme?"
         children={
           <>
-            <p class="box-article__paragraph"> Teléfono: 644 709 929 </p>
-            <p class="box-article__paragraph"> Email: natacha.im@gmail.com </p>
-            <strong class="box-article__strong"></strong>
+            <p className="box-article__paragraph"> Teléfono: 644 709 929 </p>
+            <p className="box-article__paragraph">
+              {' '}
+              Email: natacha.im@gmail.com{' '}
+            </p>
+            <strong className="box-article__strong"></strong>
           </>
         }
       />
@@ -163,13 +166,13 @@ const BoxList = () => {
         title="También estoy por aquí ..."
         children={
           <>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               Twitter:{' '}
               <a href="https://twitter.com/natassh" target="_blank">
                 @natassh
               </a>{' '}
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               <a
                 href="https://www.linkedin.com/in/natacha-ivannikova-261478113/"
                 target="_blank"
@@ -177,13 +180,13 @@ const BoxList = () => {
                 Mi linkedin
               </a>{' '}
             </p>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               GitHub:{' '}
               <a href="https://github.com/natassh" target="_blank">
                 natassh
               </a>{' '}
             </p>
-            <strong class="box-article__strong"></strong>
+            <strong className="box-article__strong"></strong>
           </>
         }
       />
@@ -192,13 +195,15 @@ const BoxList = () => {
         title="Me gusta"
         children={
           <>
-            <p class="box-article__paragraph">
+            <p className="box-article__paragraph">
               El trabajo bien hecho, cumplir los tiempos, ayudar a mi cliente,
               ser puntual, facilitar la vida en lo que pueda, tener confianza
               mutua, compartir valores, trabajar en equipo, positivismo. Y sobre
               todo ...{' '}
             </p>
-            <strong class="box-article__strong">Disfrutar trabajando.</strong>
+            <strong className="box-article__strong">
+              Disfrutar trabajando.
+            </strong>
           </>
         }
       />
