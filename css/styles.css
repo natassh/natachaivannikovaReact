@@ -1,0 +1,20 @@
+/* Commons */
+@import 'commons.css';
+@import 'local-fonts.css';
+
+/* Global variables */
+@import 'global-var.css';
+
+/* Atoms */
+
+/* Molecules */
+@import 'components/molecules/logo/logo.css';
+@import 'components/molecules/box-article/box-article.css';
+
+/* Organisms */
+@import 'components/organisms/main-header/main-header.css';
+@import 'components/organisms/list-articles/list-articles.css';
+@import 'components/organisms/main-footer/main-footer.css';
+
+
+
