@@ -1,0 +1,13 @@
+.box-article p,
+.box-article p a,
+.box-article__paragraph,
+.box-article__paragraph a {
+  margin: 0;
+  padding: 0;
+  color: var(--color-text-description);
+  font-family: var(--main-text-font);
+  font-weight: var(--light);
+  line-height: 1.2rem;
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+}

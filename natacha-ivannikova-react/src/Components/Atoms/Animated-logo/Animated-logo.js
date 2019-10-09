@@ -1,6 +1,6 @@
 import React from 'react';
 import './Animated-logo.css';
-import logo from '../../../files/woman.svg';
+import logo from '../../../assets/images/woman.svg';
 
 const AnimatedLogo = () => {
   return (

@@ -1,0 +1,30 @@
+.box-article {
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: auto;
+  /*min-height: 22vh;*/
+  text-decoration: none;
+  border-radius: 0.3rem;
+  background-color: var(--color-main-rgba);
+  line-height: 1.2rem;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  margin: 0;
+}
+.box-article_dark {
+  background-color: var(--color-main-rgba);
+}
+@media screen and (max-width: 521px) {
+  body .box-article {
+    min-height: 12vh;
+    margin-bottom: 0.1rem;
+  }
+}

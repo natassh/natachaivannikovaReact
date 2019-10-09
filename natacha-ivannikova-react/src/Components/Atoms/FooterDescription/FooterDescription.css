@@ -1,0 +1,13 @@
+.main-footer p,
+.main-footer__description {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: var(--main-text-font);
+  font-weight: var(--light);
+  font-size: 0.8rem;
+  color: var(--color-text-description);
+  padding: 0.9rem 0.6rem 0.9rem 0.6rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 0.3rem 0.3rem;
+}

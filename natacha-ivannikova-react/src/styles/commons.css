@@ -1,5 +1,5 @@
 html {
-  background: url(../files/img3.jpg) no-repeat;
+  background: url(../assets/images/img3.jpg) no-repeat;
   background-size: cover;
   background-position-x: 16%;
   background-position-x: 94%;
@@ -92,7 +92,7 @@ svg:not(:root) {
   color: #d94121;
   display: block;
   /*background-color: var(--color-title);*/
-  background-image: url(../files/html5.png);
+  background-image: url(../assets/images/html5.png);
   height: 1.6rem;
   width: 1.6rem;
   background-size: 70%;
@@ -103,7 +103,7 @@ svg:not(:root) {
   content: '';
   color: #0062ab;
   display: block;
-  background-image: url(../files/css3.png);
+  background-image: url(../assets/images/css3.png);
   height: 1.6rem;
   width: 1.6rem;
   border: solid 1px #0062ab;
@@ -116,7 +116,7 @@ svg:not(:root) {
   content: '';
   color: #0078b0;
   display: block;
-  background-image: url(../files/wp.png);
+  background-image: url(../assets/images/wp.png);
   height: 1.6rem;
   width: 1.6rem;
   border: solid 1px #0078b0;
@@ -129,7 +129,7 @@ svg:not(:root) {
   content: '';
   color: #f7cb31;
   display: block;
-  background-image: url(../files/js.png);
+  background-image: url(../assets/images/js.png);
   height: 1.6rem;
   width: 1.6rem;
   border: solid 1px #f7cb31;

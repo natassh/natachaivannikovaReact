@@ -1,0 +1,16 @@
+.main-footer__title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: var(--main-title-font);
+  font-weight: var(--regular);
+  padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+  background: var(--color-main-rgba);
+  font-size: 0.8rem;
+  color: var(--color-text-description);
+  text-transform: uppercase;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+.main-footer__title_dark {
+  background-color: var(--color-main);
+}
