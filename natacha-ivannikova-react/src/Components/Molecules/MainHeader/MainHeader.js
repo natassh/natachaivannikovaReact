@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoTitle from '../../Atoms/LogoTitle/LogoTitle';
 import LogoSubtitle from '../../Atoms/LogoSubtitle/LogoSubtitle';
-import './Main-header.css';
+import './MainHeader.css';
 
 const MainHeader = () => {
   return (

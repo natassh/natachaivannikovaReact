@@ -7,7 +7,17 @@
   color: var(--color-text-description);
   font-family: var(--main-text-font);
   font-weight: var(--light);
-  line-height: 1.2rem;
+  line-height: 1.4rem;
   margin-bottom: 0.3rem;
   font-size: 0.8rem;
+}
+.box-article p strong {
+  display: inline-block;
+  color: var(--color-title);
+  font-family: var(--main-text-font);
+  font-weight: var(--bold);
+  font-size: 0.8rem;
+}
+.box-article p a {
+  display: block;
 }

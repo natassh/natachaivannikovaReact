@@ -1,8 +1,8 @@
 import React from 'react';
 import './TextOutstanding.css';
 
-const TextOutstanding = () => {
-  return <strong class="box-article__strong"></strong>;
+const TextOutstanding = ({ text }) => {
+  return <strong className="box-article__strong">{text}</strong>;
 };
 
 export default TextOutstanding;

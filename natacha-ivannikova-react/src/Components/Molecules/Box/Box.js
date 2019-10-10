@@ -3,11 +3,11 @@ import './Box.css';
 import BoxTitle from '../../Atoms/BoxTitle/BoxTitle';
 import BoxParagraph from '../../Atoms/BoxParagraph/BoxParagraph';
 
-const Box = ({ classAnimation }) => {
+const Box = ({ classAnimation, title, children }) => {
   return (
     <article className={classAnimation}>
-      <BoxTitle />
-      <BoxParagraph />
+      <BoxTitle title={title} />
+      <BoxParagraph children={children} />
     </article>
   );
 };

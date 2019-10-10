@@ -22,6 +22,51 @@
 .box-article_dark {
   background-color: var(--color-main-rgba);
 }
+/* animShow */
+.animShow {
+  -webkit-animation-name: animShow;
+  animation-name: animShow;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes animShow {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes animShow {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+/* animShow2 */
+.animShow2 {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+/* animShow3 */
+.animShow3 {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+/* animShow4 */
+.animShow4 {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+}
 @media screen and (max-width: 521px) {
   body .box-article {
     min-height: 12vh;
