@@ -1,4 +1,4 @@
-.main-footer__title {
+.footer-title {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -10,7 +10,4 @@
   color: var(--color-text-description);
   text-transform: uppercase;
   border-radius: 0.3rem 0.3rem 0 0;
-}
-.main-footer__title_dark {
-  background-color: var(--color-main);
 }

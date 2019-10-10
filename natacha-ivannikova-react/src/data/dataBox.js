@@ -18,7 +18,8 @@ const dataBox = [
     classAnimation: 'box-article animShow animShow2',
     title: 'Trabajo con',
     content:
-      'HTML5 / CSS3 / WordPress / WooCommerce / PHP /Javascript / Pug / Sass / Flex-box / Grid / GIT / BEM / Atomic Design. <strong>Vivo aprendiendo día a día.</strong>'
+      'HTML5 / CSS3 / WordPress / WooCommerce / PHP /Javascript / Pug / Sass / Flex-box / Grid / GIT / BEM / Atomic Design.',
+    textOutstanding: 'Vivo aprendiendo día a día.'
   },
   {
     id: 3,
@@ -32,7 +33,7 @@ const dataBox = [
     classAnimation: 'box-article animShow animShow4',
     title: 'Algunos trabajos con agencias',
     content:
-      '<a href="https://www.solarpack.es/" target="_blank" rel="nofollow noopener noreferrer"> Solarpack </a><a href="http://www.suminis.com/" target="_blank" rel="nofollow noopener noreferrer" >Suminis</a> <a href="https://fundacioneki.org/" target="_blank" rel="nofollow noopener noreferrer">Fundación EKI</a><a href="https://www.ininser.es/" target="_blank" rel="nofollow noopener noreferrer" >Ininser S.A</a><a href="https://forest-trafic.com/" target="_blank" rel="nofollow noopener noreferrer > Forest Trafic S.</a <a href="http://www.cafte.com/" target="_blank" rel="nofollow noopener noreferrer > CAF Turnkey & Engineerin </a>  '
+      '<a href="https://www.solarpack.es/" target="_blank" rel="nofollow noopener noreferrer"> Solarpack </a><a href="http://www.suminis.com/" target="_blank" rel="nofollow noopener noreferrer" >Suminis</a> <a href="https://fundacioneki.org/" target="_blank" rel="nofollow noopener noreferrer">Fundación EKI</a><a href="https://www.ininser.es/" target="_blank" rel="nofollow noopener noreferrer" >Ininser S.A</a> <a href="https://forest-trafic.com/" target="_blank" rel="nofollow noopener noreferrer > Forest Trafic S.</a <a href="http://www.cafte.com/" target="_blank" rel="nofollow noopener noreferrer > CAF Turnkey & Engineerin </a>  '
   },
   {
     id: 5,

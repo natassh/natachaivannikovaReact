@@ -5,7 +5,6 @@ import parse from 'html-react-parser';
 import Box from '../../Molecules/Box/Box';
 import AnimatedLogo from '../../Atoms/AnimatedLogo/AnimatedLogo';
 import TextOutstanding from '../../Atoms/TextOutstanding/TextOutstanding';
-import BoxParagraph from '../../Atoms/BoxParagraph/BoxParagraph';
 
 const BoxList = () => {
   return (
@@ -17,6 +16,9 @@ const BoxList = () => {
           title={data.title}
         >
           {parse(data.content)}
+          {typeof data.textOutstanding !== 'undefined' && (
+            <TextOutstanding text={data.textOutstanding} />
+          )}
         </Box>
       ))}
 

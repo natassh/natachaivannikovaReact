@@ -1,5 +1,5 @@
 .box-article strong,
-.box-article__strong {
+.text-outstanding {
   display: inline-block;
   color: var(--color-title);
   font-family: var(--main-text-font);
