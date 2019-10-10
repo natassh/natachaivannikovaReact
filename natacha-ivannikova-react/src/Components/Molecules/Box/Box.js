@@ -7,7 +7,7 @@ const Box = ({ classAnimation, title, children }) => {
   return (
     <article className={classAnimation}>
       <BoxTitle title={title} />
-      <BoxParagraph children={children} />
+      {children}
     </article>
   );
 };

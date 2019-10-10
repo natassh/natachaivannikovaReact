@@ -6,8 +6,8 @@ import './MainHeader.css';
 const MainHeader = () => {
   return (
     <header className="main-header">
-      <LogoTitle />
-      <LogoSubtitle />
+      <LogoTitle href="/" text="Natacha Ivannikova" />
+      <LogoSubtitle text="WordPress Developer Freelance" />
     </header>
   );
 };

@@ -6,8 +6,11 @@ import './MainFooter.css';
 const Footer = () => {
   return (
     <footer className="main-footer">
-      <FooterTitle />
-      <FooterDescription />
+      <FooterTitle title="Esta web esta hecha con:" />
+      <FooterDescription
+        text="En mi web he usado Grid Layout, Flex-box, Custom properties & Variable
+      fonts con HTML5, BEM & Atomic design."
+      />
     </footer>
   );
 };

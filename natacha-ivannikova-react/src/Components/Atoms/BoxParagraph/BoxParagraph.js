@@ -1,8 +1,8 @@
 import React from 'react';
 import './BoxParagraph.css';
 
-const BoxParagraph = ({ children }) => {
-  return <p className="box-article__paragraph">{children}</p>;
+const BoxParagraph = ({ text }) => {
+  return <p className="box-article__paragraph">{text}</p>;
 };
 
 export default BoxParagraph;

@@ -1,10 +1,10 @@
 import React from 'react';
 import './LogoTitle.css';
 
-const LogoTitle = () => {
+const LogoTitle = ({ href, text }) => {
   return (
     <h1 className="logo">
-      <a href="index.html">Natacha Ivannikova </a>
+      <a href={href}>{text} </a>
     </h1>
   );
 };
